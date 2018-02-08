@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
+.qi-container{
+    padding: 15px;
+}
 
 .qi-picture-container{
     width: 300px;
     height: 300px;
-    margin: 15px;
+    float: left;
 }
 
 .qi-name{
@@ -51,4 +54,31 @@
     text-align: center;
     color: whitesmoke;
     font-size: 20px;
+}
+
+.qi-text{
+    border: solid 1px black;
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.qi-actions{
+    border: solid 1px black;
+    width: 50px;
+    height: 300px;
+    float: left;
+    background-color: aquamarine;;
+}
+.qi-button-container{
+    width: 100%;
+    margin-top: 10px;
+}
+.qi-button{
+    margin-top: 5px;
+    width: 100%;
+    height: 45px;
+    /* background-color: cyan; */
+    text-align: center;
 }
