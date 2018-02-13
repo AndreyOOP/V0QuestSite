@@ -6,12 +6,18 @@
 
 .qi-container{
     padding: 15px;
+    width: 680px;
+    height: 300px;
 }
 
 .qi-picture-container{
     width: 300px;
     height: 300px;
     float: left;
+}
+
+.qi-picture-container:hover{
+    opacity: 0.85;
 }
 
 .qi-name{
@@ -61,7 +67,12 @@
     width: 300px;
     height: 300px;
     float: left;
-    background-color: antiquewhite;
+    background: linear-gradient(grey, white, grey);
+    display: flex;
+    align-items: center;
+}
+p{
+    margin-left: 10px; 
 }
 
 .qi-actions{
@@ -69,7 +80,7 @@
     width: 50px;
     height: 300px;
     float: left;
-    background-color: aquamarine;;
+    background: linear-gradient(grey, white, grey);
 }
 .qi-button-container{
     width: 100%;
